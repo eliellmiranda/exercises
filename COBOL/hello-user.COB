@@ -1,9 +1,9 @@
       ******************************************************************
-      * Author:
-      * Date:
-      * Purpose:
-      * Tectonics: cobc
+      * A simple COBOL program that showcases user interaction through
+      * input and output operations. It asks for the user's name
+      * and displays a customized greeting message.
       ******************************************************************
+
        IDENTIFICATION DIVISION.
 
        PROGRAM-ID. HELLO-USER.
