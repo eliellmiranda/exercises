@@ -1,0 +1,17 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. SUM-TWO-NUMBERS.
+       DATA DIVISION.
+       FILE SECTION.
+       WORKING-STORAGE SECTION.
+           01 NUM1        PIC 9(4)       VALUE 0.
+           01 NUM2        PIC 9(4)       VALUE 0.
+           01 SUM1        PIC zzzz9   VALUE 0.
+       PROCEDURE DIVISION.
+           DISPLAY "ENTER THE FIRST NUMBER: "
+           ACCEPT NUM1
+           DISPLAY "ENTER THE SECOND NUMBER: "
+           ACCEPT NUM2
+           ADD NUM1 TO NUM2 GIVING SUM1
+           DISPLAY "THE SUM RESULT IS: " SUM1
+           STOP RUN.
+       END PROGRAM SUM-TWO-NUMBERS.
