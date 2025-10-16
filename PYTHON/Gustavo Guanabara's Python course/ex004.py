@@ -1,9 +1,9 @@
-algo = input("Digite alguma coisa: ")
+anyThing = input("Enter any value: ")
 
-print("O tipo primitivo desse valor é:", (type(algo)))
+print("The primitive type of this value is: ", (type(anyThing)))
 
-print("É alfanumérico?", algo.isalnum())
-print("É alfabético?", algo.isalpha())
-print("É numérico?", algo.isnumeric())
-print("Só tem espaços?", algo.isspace())  
+print("Is it alphanumeric?", anyThing.isalnum())
+print("Is it alphabetic?", anyThing.isalpha())
+print("Is it numeric?", anyThing.isnumeric())
+print("Is it just blank spaces?", anyThing.isspace())  
 
