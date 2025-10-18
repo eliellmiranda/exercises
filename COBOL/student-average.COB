@@ -9,10 +9,10 @@
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
-       01 GRADE1        PIC 9.
-       01 GRADE2        PIC 9.
-       01 GRADE3        PIC 9.
-       77 AVERAGE       PIC 9(2)V9(2).
+       01 GRADE1        PIC 9(2).
+       01 GRADE2        PIC 9(2).
+       01 GRADE3        PIC 9(2).
+       77 AVERAGE       PIC zz(2).99.
        PROCEDURE DIVISION.
            DISPLAY 'ENTER THE FIRST GRADE: '.
            ACCEPT GRADE1.
